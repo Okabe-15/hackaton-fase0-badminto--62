@@ -1,0 +1,48 @@
+{
+  "tim": [
+    {
+      "nama": "Ali Hadi",
+      "peran": "Front End Developer",
+      "bio": "Bertanggung jawab pengembangan fitur utama Badminto +62.",
+      "foto": "team/ali.png",
+      "sosial": {
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "facebook": "facebook.com"
+      }
+    },
+    {
+      "nama": "Arief Rizki",
+      "peran": "Front End Developer",
+      "bio": "Bertugas mengumpulkan dan memperbarui data dan layout",
+      "foto": "team/arief.jpeg",
+      "sosial": {
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "facebook": "facebook.com"
+      }
+    },
+    {
+      "nama": "Afif Chandra",
+      "peran": "Back End Developer",
+      "bio": "Merancang javascript ",
+      "foto": "team/afif.png",
+      "sosial": {
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "facebook": "facebook.com"
+      }
+    },
+    {
+      "nama": "Nickzard",
+      "peran": "Back End Developer",
+      "bio": "Merancang tampilan belakang agar terhubung dengan backend",
+      "foto": "team/nick.png",
+      "sosial": {
+        "instagram": "instagram.com",
+        "linkedin": "linkedin.com",
+        "facebook": "facebook.com"
+      }
+    }
+  ]
+}

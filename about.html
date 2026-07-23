@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentang Pembuat — Badminto +62</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html#beranda" class="logo">Badminto<span>+62</span></a>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html#beranda" class="nav-link">Beranda</a></li>
+          <li><a href="index.html#daftar" class="nav-link">Daftar Pemain</a></li>
+          <li><a href="index.html#tentang" class="nav-link">Tentang</a></li>
+          <li><a href="index.html#kontak" class="nav-link">Kontak</a></li>
+          <li><a href="about.html" class="nav-link">Tentang Pembuat</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO KECIL -->
+  <section class="hero hero-small">
+    <p class="eyebrow">Tentang Pembuat</p>
+    <h1>Di Balik <span>Badminto +62</span></h1>
+    <p class="hero-desc">Kenalan sedikit dengan tim yang membuat website ini.</p>
+  </section>
+
+  <!-- PROFIL PEMBUAT (diisi otomatis dari team.json) -->
+  <section class="section">
+    <div class="profile-grid" id="teamList">
+      <p class="no-result">Memuat data tim...</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Badminto +62 — Website contoh untuk keperluan belajar.</p>
+  </footer>
+
+  <script>
+    // Toggle menu hamburger (mobile)
+    document.getElementById('hamburger').addEventListener('click', function () {
+      document.getElementById('navMenu').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.getElementById('navMenu').classList.remove('open');
+      });
+    });
+    // Tahun otomatis di footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* ====== TIM KAMI: diambil dari team.json ====== */
+    var teamList = document.getElementById('teamList');
+
+    function escapeHtml(str) {
+      var div = document.createElement('div');
+      div.textContent = str == null ? '' : String(str);
+      return div.innerHTML;
+    }
+
+    function socialIcon(kind) {
+      if (kind === 'instagram') {
+        return '<svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43A4.9 4.9 0 0 1 3.82 3a4.9 4.9 0 0 1 1.77-1.15c.46-.16 1.26-.35 2.43-.4C9.29 2.21 9.67 2.2 12 2.2Zm0 1.8c-3.14 0-3.5.01-4.73.07-1.02.05-1.58.22-1.94.36-.49.19-.84.42-1.2.79-.37.36-.6.71-.8 1.2-.13.36-.3.92-.35 1.94-.06 1.23-.07 1.6-.07 4.74s.01 3.5.07 4.74c.05 1.02.22 1.58.36 1.94.19.49.42.84.79 1.2.36.37.71.6 1.2.8.36.13.92.3 1.94.35 1.23.06 1.6.07 4.74.07s3.5-.01 4.74-.07c1.02-.05 1.58-.22 1.94-.36.49-.19.84-.42 1.2-.79.37-.36.6-.71.8-1.2.13-.36.3-.92.35-1.94.06-1.23.07-1.6.07-4.74s-.01-3.5-.07-4.74c-.05-1.02-.22-1.58-.36-1.94a3.1 3.1 0 0 0-.79-1.2 3.1 3.1 0 0 0-1.2-.8c-.36-.13-.92-.3-1.94-.35-1.23-.06-1.6-.07-4.74-.07Zm0 3.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm0 1.8a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4Zm5.7-1.98a1.28 1.28 0 1 1 0 2.57 1.28 1.28 0 0 1 0-2.57Z"/></svg>';
+      }
+      if (kind === 'linkedin') {
+        return '<svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>';
+      }
+      if (kind === 'facebook') {
+        return '<svg viewBox="0 0 24 24"><path d="M13.5 21v-7.85h2.63l.4-3.06h-3.03V8.14c0-.89.25-1.49 1.52-1.49h1.62V3.92A21.6 21.6 0 0 0 14.3 3.8c-2.32 0-3.9 1.42-3.9 4.02v2.27H7.75v3.06h2.65V21h3.1Z"/></svg>';
+      }
+      return '';
+    }
+
+    function avatarHtml(orang) {
+      if (orang.foto) {
+        return '<img class="profile-avatar-img" src="' + escapeHtml(orang.foto) +
+          '" alt="' + escapeHtml(orang.nama) + '" data-fallback="FOTO">';
+      }
+      return '<span class="profile-avatar-placeholder">FOTO</span>';
+    }
+
+    // Kalau file foto gagal dimuat, ganti otomatis jadi placeholder teks "FOTO"
+    function attachImageFallback(container) {
+      container.querySelectorAll('img[data-fallback]').forEach(function (img) {
+        img.addEventListener('error', function () {
+          var wrapper = img.parentElement;
+          wrapper.innerHTML = '<span class="profile-avatar-placeholder">' + img.dataset.fallback + '</span>';
+        });
+      });
+    }
+
+    function renderTeam(list) {
+      teamList.innerHTML = '';
+
+      if (!list || list.length === 0) {
+        teamList.innerHTML = '<p class="no-result">Data tim belum tersedia.</p>';
+        return;
+      }
+
+      list.forEach(function (orang) {
+        var sosial = orang.sosial || {};
+        var card = document.createElement('div');
+        card.className = 'profile-card';
+        card.innerHTML =
+          '<div class="profile-avatar">' + avatarHtml(orang) + '</div>' +
+          '<h2 class="profile-name">' + escapeHtml(orang.nama) + '</h2>' +
+          '<p class="profile-role">' + escapeHtml(orang.peran) + '</p>' +
+          '<p class="profile-bio">' + escapeHtml(orang.bio) + '</p>' +
+          '<div class="social-links">' +
+            '<a href="' + escapeHtml(sosial.instagram || '#') + '" class="social-link" aria-label="Instagram" title="Instagram">' + socialIcon('instagram') + '</a>' +
+            '<a href="' + escapeHtml(sosial.linkedin || '#') + '" class="social-link" aria-label="LinkedIn" title="LinkedIn">' + socialIcon('linkedin') + '</a>' +
+            '<a href="' + escapeHtml(sosial.facebook || '#') + '" class="social-link" aria-label="Facebook" title="Facebook">' + socialIcon('facebook') + '</a>' +
+          '</div>';
+        teamList.appendChild(card);
+      });
+
+      attachImageFallback(teamList);
+    }
+
+    async function loadTeam() {
+      try {
+        var response = await fetch('team.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        var db = await response.json();
+        renderTeam(db.tim || []);
+      } catch (error) {
+        console.error('Gagal memuat team.json:', error);
+        teamList.innerHTML =
+          '<p class="no-result">Gagal memuat data tim. Pastikan file dibuka lewat server lokal (Live Server), ' +
+          'bukan langsung dari file, karena browser memblokir fetch() ke file JSON saat dibuka langsung dari folder.</p>';
+      }
+    }
+
+    loadTeam();
+  </script>
+</body>
+</html>

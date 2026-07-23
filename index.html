@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badminto +62 — Top 30 Pemain Bulutangkis Indonesia</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#beranda" class="logo">Badminto<span>+62</span></a>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li><a href="#daftar" class="nav-link">Daftar Pemain</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+          <li><a href="about.html" class="nav-link">Tentang Pembuat</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="beranda" class="hero">
+    <p class="eyebrow">Bulutangkis Indonesia</p>
+    <h1>Top 30 Pemain <span>Terbaik</span></h1>
+    <p class="hero-desc">Daftar 30 pemain tunggal putra dan tunggal putri terbaik Indonesia (masing-masing 15 pemain per sektor) berdasarkan peringkat nasional PBSI.</p>
+    <a href="#daftar" class="btn">Lihat Daftar</a>
+  </section>
+
+  <!-- KOTAK PENCARIAN -->
+  <section class="search-wrap">
+    <input type="text" id="searchInput" placeholder="Cari nama pemain..." class="search-input">
+  </section>
+
+  <!-- DAFTAR PEMAIN -->
+  <section id="daftar" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Daftar</p>
+      <h2><span id="sectionCount">30</span> Pemain Terbaik</h2>
+    </div>
+
+    <div class="category-block">
+      <h3 class="category-title">Tunggal Putra <span class="category-count" id="countPutra">15</span></h3>
+      <div class="player-grid" id="playerListPutra">
+        <!-- Diisi otomatis lewat script.js -->
+      </div>
+    </div>
+
+    <div class="category-block">
+      <h3 class="category-title">Tunggal Putri <span class="category-count" id="countPutri">15</span></h3>
+      <div class="player-grid" id="playerListPutri">
+        <!-- Diisi otomatis lewat script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL PROFIL PEMAIN -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">&times;</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="section tentang">
+    <div class="section-head">
+      <p class="eyebrow">Tentang</p>
+      <h2>Catatan Singkat</h2>
+    </div>
+    <p class="tentang-text">
+      Daftar di halaman ini disusun berdasarkan peringkat dunia BWF dan performa turnamen sepanjang paruh pertama 2026. Peringkat bulutangkis berubah hampir tiap minggu mengikuti hasil turnamen, jadi angka di sini adalah gambaran umum, bukan data langsung dari BWF.
+    </p>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="section kontak">
+    <div class="section-head">
+      <p class="eyebrow">Kontak</p>
+      <h2>Ada Masukan?</h2>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="nama" placeholder="Nama" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="pesan" rows="4" placeholder="Pesan..." required></textarea>
+      <button type="submit" class="btn">Kirim</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Badminto +62 — Website contoh untuk keperluan belajar.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

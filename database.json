@@ -1,0 +1,248 @@
+{
+  "periode": "2025 - 2026",
+  "sumber_data": "Persatuan Bulutangkis Seluruh Indonesia (PBSI)",
+  "tunggal_putra": [
+    {
+      "peringkat_nasional": 1,
+      "nama_atlet": "Jonatan Christie",
+      "klub_asal": "PB Tangkas",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/jonatan-christie.jpg"
+    },
+    {
+      "peringkat_nasional": 2,
+      "nama_atlet": "Anthony Sinisuka Ginting",
+      "klub_asal": "PB SGS Bandung",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/anthony-sinisuka-ginting.jpeg"
+    },
+    {
+      "peringkat_nasional": 3,
+      "nama_atlet": "Chico Aura Dwi Wardoyo",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/chico-aura-dwi-wardoyo.jpeg"
+    },
+    {
+      "peringkat_nasional": 4,
+      "nama_atlet": "Alwi Farhan",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/alwi-farhan.jpeg"
+    },
+    {
+      "peringkat_nasional": 5,
+      "nama_atlet": "Yohanes Saut Marcellyno",
+      "klub_asal": "PB Jaya Raya",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/yohanes-saut-marcellyno.jpeg"
+    },
+    {
+      "peringkat_nasional": 6,
+      "nama_atlet": "Mohammad Zaki Ubaidillah",
+      "klub_asal": "PB Djarum",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/Mohammad_Zaki_Ubaidillah.jpeg"
+    },
+    {
+      "peringkat_nasional": 7,
+      "nama_atlet": "Jason Christ Alexander",
+      "klub_asal": "PB Djarum",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/jason-christ-alexander.jpeg"
+    },
+    {
+      "peringkat_nasional": 8,
+      "nama_atlet": "Krishna Adi Nugraha",
+      "klub_asal": "PB Jaya Raya",
+      "status": "Non-Pelatnas (Profesional)",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/krishna-adi-nugraha.jpeg"
+    },
+    {
+      "peringkat_nasional": 9,
+      "nama_atlet": "Muhammad Reza Al Fajri",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/muhammad-reza-al-fajri.jpg"
+    },
+    {
+      "peringkat_nasional": 10,
+      "nama_atlet": "Tegar Sulistio",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/tegar-sulistio.jpg"
+    },
+    {
+      "peringkat_nasional": 11,
+      "nama_atlet": "Bodhi Ratana Teja Gotama",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/bodhi-ratana-teja-gotama.jpeg"
+    },
+    {
+      "peringkat_nasional": 12,
+      "nama_atlet": "Prahdiska Bagas Shujiwo",
+      "klub_asal": "PB Tangkas",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/prahadiska-bagas.jpeg"
+    },
+    {
+      "peringkat_nasional": 13,
+      "nama_atlet": "Ikhsan Leonardo Imanuel Rumbay",
+      "klub_asal": "PB Djarum",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/ikhsan-leonardo-imanuel-rumbay.jpg"
+    },
+    {
+      "peringkat_nasional": 14,
+      "nama_atlet": "Bismo Raya Oktora",
+      "klub_asal": "PB Jaya Raya",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/bismo-raya-oktora.jpg"
+    },
+    {
+      "peringkat_nasional": 15,
+      "nama_atlet": "Akhmad Raikhan Nur Iswin",
+      "klub_asal": "PB TNI AL JALA ADHIGUNA KODIKLATAL",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putra",
+      "foto": "foto/tunggal-putra/akhmad-raikhan-nur-iswin.jpg"
+    }
+  ],
+  "tunggal_putri": [
+    {
+      "peringkat_nasional": 1,
+      "nama_atlet": "Gregoria Mariska Tunjung",
+      "klub_asal": "PB Mutiara Cardinal",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/gregoria-mariska-tunjung.jpeg"
+    },
+    {
+      "peringkat_nasional": 2,
+      "nama_atlet": "Ester Nurumi Tri Wardoyo",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/ester-nurumi-tri-wardoyo.jpg"
+    },
+    {
+      "peringkat_nasional": 3,
+      "nama_atlet": "Putri Kusuma Wardani",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/putri-kusuma-wardani.jpeg"
+    },
+    {
+      "peringkat_nasional": 4,
+      "nama_atlet": "Komang Ayu Cahya Dewi",
+      "klub_asal": "PB Djarum",
+      "status": "Pelatnas Utama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/komang-ayu-cahya-dewi.jpeg"
+    },
+    {
+      "peringkat_nasional": 5,
+      "nama_atlet": "Ruzana",
+      "klub_asal": "PB Djarum",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/ruzana.jpeg"
+    },
+    {
+      "peringkat_nasional": 6,
+      "nama_atlet": "Mutiara Ayu Puspitasari",
+      "klub_asal": "PB Djarum",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/mutiara-ayu-puspitasari.jpeg"
+    },
+    {
+      "peringkat_nasional": 7,
+      "nama_atlet": "Chiara Marvella Handoyo",
+      "klub_asal": "PB Djarum",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/chiara-marvella-handoyo.jpg"
+    },
+    {
+      "peringkat_nasional": 8,
+      "nama_atlet": "Ni Kadek Dhinda Amartya Pratiwi",
+      "klub_asal": "PB Jaya Raya",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/ni-kadek-dhinda-amartya-pratiwi.jpg"
+    },
+    {
+      "peringkat_nasional": 9,
+      "nama_atlet": "Kyla Legiana Agatha",
+      "klub_asal": "PB Mutiara Cardinal",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/kyla-legiana-agatha.webp"
+    },
+    {
+      "peringkat_nasional": 10,
+      "nama_atlet": "Tasya Farahnailah",
+      "klub_asal": "PB Jaya Raya",
+      "status": "Pelatnas Pratama",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/tasya-farahnailah.jpg"
+    },
+    {
+      "peringkat_nasional": 11,
+      "nama_atlet": "Aisyah Sativa Fatetani",
+      "klub_asal": "PB Djarum",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/aisyah-sativa-fatetani.jpeg"
+    },
+    {
+      "peringkat_nasional": 12,
+      "nama_atlet": "Bilqis Prasista",
+      "klub_asal": "PB Djarum",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/bilqis-prasista.jpeg"
+    },
+    {
+      "peringkat_nasional": 13,
+      "nama_atlet": "Stephanie Widjaja",
+      "klub_asal": "PB Jaya Raya",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/stephanie-widjaja.jpeg"
+    },
+    {
+      "peringkat_nasional": 14,
+      "nama_atlet": "Saifi Rizka Nurhidayah",
+      "klub_asal": "PB Mutiara Cardinal",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/saifi-rizka-nurhidayah.jpg"
+    },
+    {
+      "peringkat_nasional": 15,
+      "nama_atlet": "Deswanti Hujansih Nurtertiati",
+      "klub_asal": "PB Mansion Exist",
+      "status": "Non-Pelatnas",
+      "sektor": "Tunggal Dewasa Putri",
+      "foto": "foto/tunggal-putri/deswanti-hujansih-nurtertiati.jpg"
+    }
+  ]
+}
